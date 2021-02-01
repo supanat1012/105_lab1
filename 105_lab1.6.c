@@ -1,10 +1,9 @@
 #include<stdio.h>
 int main()
-{   int a,b,sum;
-
-    scanf("%d %d",&a,&sum);
-    b=2*sum-a;
-    printf("%d",b);
-
-    return 0;
+{   int n,m,l;
+    scanf("%d %d %d",&n,&m,&l);
+    if(0<n<1000&&0<m<1000&&n+m<=l&&0<l<1000000000)
+    {
+        printf("Test");
+    }
 }
