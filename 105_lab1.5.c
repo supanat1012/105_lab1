@@ -11,9 +11,9 @@ int main()
             if(a>max)
                 {
                     max=a;
-                    po=i;
+                    po=i+1;
                 }
         }
-    printf("%d %d",po+1,max);
+    printf("%d %d",po,max);
 
 }
