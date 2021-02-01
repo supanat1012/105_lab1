@@ -1,15 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    long n,m,l,i=1,foot,j;
+    unsigned long int n,m,l,i=1,foot,j;
     char c;
-    scanf("%d %d %d",&n,&m,&l);
+    scanf("%lu %lu %lu",&n,&m,&l);
     fflush(stdin);
     scanf("%c",&c);
-    if(0<n<1000 && 0<m<1000)
-    {
-        if(0<l<100000 && m<l && n<l)
-        {
+
             while(i<=l)
             {
 
@@ -34,8 +31,8 @@ int main()
 
 
             }
-        }
-    }
+
+
 
     if(c=='L')
         printf("L");
