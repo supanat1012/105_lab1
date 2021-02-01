@@ -34,5 +34,7 @@ int main()
         printf("L");
         else if(c=='R')
         printf("R");
+
     }
+    return 0;
 }
