@@ -5,8 +5,6 @@ int main()
     scanf("%d %d %d",&n,&m,&l);
     fflush(stdin);
     scanf("%c",&c);
-    if(0<l<1000000000&& m<l && n<l)
-    {
         while(i<=l)
         {
 
@@ -32,11 +30,10 @@ int main()
 
         }
 
-
-    }
         if(c=='L')
-        printf("L");
+            printf("L");
         else if(c=='R')
-        printf("R");
+            printf("R");
+
     return 0;
 }
