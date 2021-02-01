@@ -1,3 +1,4 @@
+#include<stdio.h>
 int main()
 {
     int a,i,n,max=0,po;
