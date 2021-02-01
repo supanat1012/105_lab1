@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 int main()
-{   unsigned long a,b;
+{   unsigned int a,b;
 
     scanf("%d",&a);
     printf("%d",a%3);
